@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="sr">
+<head>
+    <meta charset="UTF-8">
+    <title>AI Bibliotekar</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="chat-container">
+    <div class="header">📚 AI Bibliotekar</div>
+
+    <div id="chat" class="chat-box"></div>
+
+    <div class="input-area">
+        <input id="input" placeholder="Postavite pitanje o knjigama..."
+               onkeydown="if(event.key==='Enter') sendMessage()">
+        <button onclick="sendMessage()">Pošalji</button>
+    </div>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
